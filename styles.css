@@ -1,6 +1,10 @@
 body {
-  width: 75%;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 /* Navigation */
@@ -19,11 +23,20 @@ body {
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding-top: 20px; 
+  padding-top: 20px;
+}
+
+.nav-divider {
+  font-size: 2rem;
+  padding-right: 2rem;
+}
+
+.nav-item {
+  padding-right: 2rem;
 }
 
 .nav-link {
-  padding: 6px 8px 6px 18px;
+  padding: 6px 16px 6px 18px;
   text-decoration: none;
   font-size: 24px;
   color: #818181;
@@ -34,20 +47,56 @@ body {
   color: #f1f1f1;
 }
 
+/*Heading Section*/
+.heading-block {
+  text-align: center;
+  margin: 3% 15%;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
 /* Main Content */
 
 .main-section {
-  margin-left: 200px;
+  margin-left: 15.625rem;
+  margin-right: 15.625rem;
   padding: 10px 10px;
 }
 
 .main-doc-header {
   background-color: #e1f4f3;
   font-size: 24px;
-  margin: 10px 0;
-  padding: 8px;
+  margin: 0 -9999rem;
+ /* add back negative margin value */
+ padding: 0.75rem 9999rem;
 }
 
+.section-subheading {
+  font-size: 18px;
+  padding-left: 8px;
+  padding-top: 1rem;
+}
+
+.link-list {
+  padding-top: 1.2rem;
+}
+
+.fas {
+  padding-right: 0.75rem;
+}
+
+/*Footer Section*/
+
+footer {
+  background-color: #000839;
+  margin: 0 -9999rem;
+ /* add back negative margin value */
+  padding: 0.75rem 9999rem;
+  height: 150px;
+}
 
 /* Media Queries */
 
@@ -58,4 +107,7 @@ body {
   .nav-link {
     font-size: 18px;
   }
+  .main-section {
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
