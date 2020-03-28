@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html>
+
 <head>
   <meta charset="utf-8 lang="en">
   <link rel="stylesheet" href="styles.css">
@@ -7,91 +9,108 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/75ad851079.js" crossorigin="anonymous"></script>
+<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+<link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
 </head>
 
 <body class="container-fluid">
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">COVID-19 Rapid Review Resources</a>
+  <a class="navbar-brand" href="#">ESP Logo</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">                                                  
+    <ul class="navbar-nav">
       <li class="nav-item"><a class="nav-link" href="#orgs-databases">Organizations and Databases</a></li>
+      <span class="nav-divider">|</span>
       <li class="nav-item"><a class="nav-link" href="#gen-info">General Information</a></li>
       <li class="nav-item"><a class="nav-link" href="#mechanism">Mechanism</a></li>
       <li class="nav-item"><a class="nav-link" href="#transmission">Transmission</a></li>
       <li class="nav-item"><a class="nav-link" href="#treatment">Treatment</a></li>
-      <li class="nav-item"><a class="nav-link" href="#epidemiology">Epidemiology</a></li> 
-    </ul> 
-  </div>                                                                 
+      <li class="nav-item"><a class="nav-link" href="#epidemiology">Epidemiology</a></li>
+    </ul>
+    <!-- Search form
+    <form class="form-inline">
+      <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+    </form>-->
+  </div>
 </nav>
 
-<main id="main-doc">                                          
-<h1>COVID-19 Rapid Reviews</h1>
-<p>Last updated: March 26, 2020 </p>
+<main id="main-doc">
+
+<section class="heading-block">
+<h1 class="title">COVID-19 Reviews</h1>
+<p class="update-text">Last updated: March 26, 2020 </p>
+</section>
 
 <section class="main-section" id="orgs-databases">
-<header class="main-doc-header">Organizations and Databases</header>
-  <h3>Organizations</h3>
+<header class="main-doc-header"><i class="fas fa-landmark"></i>Organizations and Databases</header>
+  <h3 class="section-subheading">Organizations</h3>
    <ul>
       <li><a href="https://www.cebm.net/covid-19/">Centre for Evidence-Based Medicine</a>
       <li><a href="http://eppi.ioe.ac.uk/cms/Projects/DepartmentofHealthandSocialCare/Publishedreviews/COVID-19Livingsystematicmapoftheevidence/tabid/3765/Default.aspx">EPPI-Centre - COVID-19: Living Systematic Map of the Evidence</a>
       <li><a href="https://www.evidenceaid.org/coronavirus-covid-19-evidence-collection/">Evidence Aid - Coronavirus (COVID-19): Evidence Collection</a>
    </ul>
-   
- <h3>Databases</h3>
+
+ <h3 class="section-subheading">Databases</h3>
    <ul>
       <li><a href="https://www.ncbi.nlm.nih.gov/research/coronavirus/">LitCovid (NIH/NLM)</a>
-      <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov">Global research on coronavirus disease (COVID-19) (WHO)</a>                                        
-   </ul>                                               
+      <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov">Global research on coronavirus disease (COVID-19) (WHO)</a>
+   </ul>
 </section>
 
-<section class="main-section" id="gen-info">                                                                                                                                  
-<header class="main-doc-header">General Information</header>
-  <ul>
+<section class="main-section" id="gen-info">
+<header class="main-doc-header"><i class="fas fa-info-circle"></i>General Information</header>
+  <ul class="link-list">
     <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7079521/"> (March 17, 2020) Epidemiology, causes, clinical manifestation and diagnosis, prevention and control of coronavirus disease (COVID-19) during the early outbreak period: a scoping review.</a>
     <li><a href="">Link to article</a>
     <li><a href="">Link to article</a>
   </ul>
 </section>
 
-<section class="main-section" id="mechanism">                  
-<header class="main-doc-header">Mechanism</header>
-  <ul>
-    <li><a href="">Link to article</a>
-    <li><a href="">Link to article</a>
-    <li><a href="">Link to article</a>
-  </ul>
-</section>
-                  
-<section class="main-section" id="transmission">                  
-<header class="main-doc-header">Transmission</header>
-  <ul>
+<section class="main-section" id="mechanism">
+<header class="main-doc-header"><i class="fas fa-cog"></i>Mechanism</header>
+  <ul class="link-list">
     <li><a href="">Link to article</a>
     <li><a href="">Link to article</a>
     <li><a href="">Link to article</a>
   </ul>
 </section>
 
-                  
-<section class="main-section" id="treatment">                  
-<header class="main-doc-header">Treatment</header>
-  <ul>
+<section class="main-section" id="transmission">
+<header class="main-doc-header"><i class="fas fa-arrows-alt"></i>Transmission</header>
+  <ul class="link-list">
     <li><a href="">Link to article</a>
     <li><a href="">Link to article</a>
     <li><a href="">Link to article</a>
   </ul>
 </section>
 
-<section class="main-section" id="epidemiology">                  
-<header class="main-doc-header">Epidemiology</header>
-  <ul>
+<section class="main-section" id="treatment">
+<header class="main-doc-header"><i class="fas fa-prescription-bottle-alt"></i>Treatment</header>
+  <ul class="link-list">
     <li><a href="">Link to article</a>
     <li><a href="">Link to article</a>
     <li><a href="">Link to article</a>
   </ul>
-</section> 
-</main>                  
+</section>
+
+<section class="main-section" id="epidemiology">
+<header class="main-doc-header"><i class="fas fa-shield-virus"></i>Epidemiology</header>
+  <ul class="link-list">
+    <li><a href="">Link to article</a>
+    <li><a href="">Link to article</a>
+    <li><a href="">Link to article</a>
+  </ul>
+</section>
+</main>
+
+<footer>
+</footer>
+
+<script src="index.js"></script>
 </body>
+</html>
