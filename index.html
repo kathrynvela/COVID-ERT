@@ -6,31 +6,60 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/75ad851079.js" crossorigin="anonymous"></script>
-<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
-<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
-<link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="https://kit.fontawesome.com/75ad851079.js" crossorigin="anonymous"></script>
+  <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+  <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+  <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
 </head>
 
 <body class="container-fluid">
 
-<!--Navigation-->
+<!-- Navigation -->
 
-<nav class="navbar navbar-dark bg-dark" id="navbar">
+<nav class="navbar navbar-light bg-light fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-  <!--<header class="header-nav">Navigation</header>-->
-  <a class="nav-link" href="#virus">Virus Natural History, Transmission, and Diagnostics</a>
-  <a class="nav-link" href="#epi-studies">Epidemiological Studies</a>
-  <a class="nav-link" href="#clinical">Clinical Characterization and Management</a>
-  <a class="nav-link" href="#infection">Infection Prevention and Control</a>
-  <a class="nav-link" href="#therapeutics">Candidate Therapeutics R&D</a>
-  <a class="nav-link" href="#vaccine">Candidate Vaccines R&D</a>
-  <a class="nav-link" href="#ethics">Ethics Considerations for Research</a>
-  <a class="nav-link" href="#social-sciences">Social Sciences in the Outbreak Response</a>
-  <a class="nav-link" href="#animal">Animal and Environmental Research</a>
+    <ul class="navbar-nav text-center mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="#resources">Review Resources</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#virus">Virus Natural History, Transmission, and Diagnostics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#epi-studies">Epidemiological Studies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#clinical">Clinical Characterization and Management</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#infection">Infection Prevention and Control</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#therapeutics">Candidate Therapeutics R&D</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#vaccine">Candidate Vaccines R&D</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ethics">Ethics Considerations for Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#social-sciences">Social Sciences in the Outbreak Response</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#animal">Animal and Environmental Research</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 
 
@@ -41,20 +70,29 @@
 <!--Heading Section-->
 
 <section class="heading-block">
-  <h1 class="title">COVID-19 Reviews</h1>
-  <p class="update-text">Last updated: March 31, 2020 </p>
-  <p class="about">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ipsum quis dolor dignissim dignissim id sed augue. In aliquam, nulla non malesuada pulvinar, nulla ipsum suscipit metus, sed auctor nisi mauris quis neque. Suspendisse dolor lorem, dignissim non elit id, posuere dapibus felis. Curabitur eleifend pharetra scelerisque. Proin aliquam neque vitae faucibus venenatis. Curabitur id imperdiet diam. Donec eget augue nec justo dapibus posuere. Integer a nisl non quam tincidunt fringilla tempor nec neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed elementum, felis non viverra vestibulum, quam arcu luctus dui, ut accumsan enim mi pellentesque velit. Aliquam feugiat volutpat magna, ac facilisis ligula tincidunt ac. Fusce nec felis congue ipsum dapibus faucibus a non nulla. Vestibulum sit amet arcu tortor. In maximus maximus velit sit amet auctor.
-  </p>
+  <h1 class="title text-center">COVID-19 Reviews</h1>
+  <p class="update-text">Last updated: April 02, 2020 </p>
+
+  <div class="container about">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <img class="logo" src="ESP-logo.jpg" />
+      </div>
+      <div class="col-lg-8 col-md-6">
+        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ipsum quis dolor dignissim dignissim id sed augue. In aliquam, nulla non malesuada pulvinar, nulla ipsum suscipit metus, sed auctor nisi mauris quis neque. Suspendisse dolor lorem, dignissim non elit id, posuere dapibus felis. Curabitur eleifend pharetra scelerisque. Proin aliquam neque vitae faucibus venenatis. Curabitur id imperdiet diam. Donec eget augue nec justo dapibus posuere. Integer a nisl non quam tincidunt fringilla tempor nec neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed elementum, felis non viverra vestibulum, quam arcu luctus dui, ut accumsan enim mi pellentesque velit. Aliquam feugiat volutpat magna, ac facilisis ligula tincidunt ac. Fusce nec felis congue ipsum dapibus faucibus a non nulla. Vestibulum sit amet arcu tortor. In maximus maximus velit sit amet auctor.</p>
+      </div>
+    </div>
+  </div>
+
 </section>
 
 <!--Links Section-->
 
-<section class="main-section" id="orgs-databases">
+<section class="main-section" id="resources">
 
 <!--Organizations and Databases-->
 
-<header class="main-doc-header"><i class="fas fa-landmark"></i>Organizations and Databases</header>
+<header class="main-doc-header"><i class="fas fa-landmark"></i> Review Resources</header>
   <h3 class="section-subheading">Organizations</h3>
   <div class="list-group">
     <a href="https://www.cebm.net/covid-19/" class="list-group-item list-group-item-action" style="border: none">
@@ -103,6 +141,8 @@
 
 <section class="main-section" id="virus">
 <header class="main-doc-header"><i class="fas fa-virus"></i>Virus Natural History, Transmission, and Diagnostics</header>
+
+<!--No articles yet
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action" style="border: none">
     <div class="d-flex w-100 justify-content-between">
@@ -127,7 +167,7 @@
     <p class="mb-1">Date | Author | Journal</p>
     <p class="mb-1">Question/Aim</p>
   </a>
-</div>
+</div>-->
 </section>
 
 <!--Epi Articles-->
@@ -143,22 +183,6 @@
       <p class="mb-1">03/17/2020 | Adhikari SP, Meng S, Wu YJ, et al. | Infect Dis Poverty</p>
       <p class="mb-1">Aim: To conduct a scoping review to summarize and critically analyze all the published scientific articles regarding the new coronavirus in January 2020</p>
     </a>
-
-    <a href="#" class="list-group-item list-group-item-action" style="border: none">
-      <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-1">Title</h5>
-      </div>
-      <p class="mb-1">Date | Author | Journal</p>
-      <p class="mb-1">Question/Aim</p>
-    </a>
-
-    <a href="#" class="list-group-item list-group-item-action" style="border: none">
-      <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-1">Title</h5>
-      </div>
-      <p class="mb-1">Date | Author | Journal</p>
-      <p class="mb-1">Question/Aim</p>
-    </a>
   </div>
 </section>
 
@@ -168,20 +192,37 @@
 <header class="main-doc-header"><i class="fas fa-users"></i>Clinical Characterization and Management</header>
 
     <div class="list-group">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/32206052/?from_single_result=32206052" class="list-group-item list-group-item-action" style="border: none">
+
+      <a href="https://pubmed.ncbi.nlm.nih.gov/32110875/?from_single_result=32110875" class="list-group-item list-group-item-action" style="border: none">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">COVID-19 and Smoking: A Systematic Review of the Evidence</h5>
+          <h5 class="mb-1">Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review</h5>
         </div>
-        <p class="mb-1">03/20/2020 | Vardavas CI, Nikitara K | Journal</p>
-        <p class="mb-1">What is the assocation between smoking and COVID-19 outcomes including the severity of the disease, the need for mechanical ventilation, the need for intensive care unite (ICU) hosptialization, and death?</p>
+        <p class="mb-1">2/26/2020 | Pang J, Wang MX, Ang IYH, et al. | J Clin Med</p>
+        <p class="mb-1">Aim: To describe and assess the potential rapid diagnostics, vaccines and therapeutics for 2019-nCoV, based in part on the developments for MERS-CoV and SARS-CoV</p>
       </a>
 
-      <a href="https://pubmed.ncbi.nlm.nih.gov/32202343/?from_single_result=32202343" class="list-group-item list-group-item-action" style="border: none">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/32173574/?from_single_result=32173574" class="list-group-item list-group-item-action" style="border: none">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Systematic Review of COVID-19 in Children Show Milder Cases and a Better Prognosis than Adults</h5>
+          <h5 class="mb-1">Prevalence of comorbidities in the novel Wuhan coronavirus (COVID-19) infection: a systematic review and meta-analysis</h5>
         </div>
-        <p class="mb-1">03/23/2020 | Ludvigsson JF | Journal</p>
-        <p class="mb-1">What is the evidence on COVID-19 incidence and disease course in children?</p>
+        <p class="mb-1">3/12/2020 | Yang J, Zheng Y, Gou X, et al. | Int J Infect Dis</p>
+        <p class="mb-1">Aim: To assess the prevalence of comorbidities in the COVID-19 infection patients and the risk of underlying diseases in severe patients compared to non-severe patients.</p>
+      </a>
+
+      <a href="https://pubmed.ncbi.nlm.nih.gov/32179124/?from_single_result=32179124" class="list-group-item list-group-item-action" style="border: none">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Clinical, laboratory and imaging features of COVID-19: A systematic review and meta-analysis</h5>
+        </div>
+        <p class="mb-1">03/13/2020 | Rodriguez-Morales AJ, Cardona-Ospina JA, Gutiérrez-Ocampo E, et al. | Travel Med Infect Dis</p>
+        <p class="mb-1">Aim: To summarize the clinical, laboratory, and image features of COVID-19; to examine the outcome of COVID-19 cases, including risk factors, the proportion of patients requiring ICU and those with fatal outcomes; and to assess the prevalence of comorbidities among COVID-19 confirmed cases.</p>
+      </a>
+
+      <a href="https://pubmed.ncbi.nlm.nih.gov/32174129/?from_single_result=32174129" class="list-group-item list-group-item-action" style="border: none">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Coronavirus Disease 2019 (COVID-19): A Systematic Review of Imaging Findings in 919 Patients</h5>
+        </div>
+        <p class="mb-1">3/14/2020 | Salehi S, Abedi A, Balakrishnan S, Gholamrezanezhad A. | AJR Am J Roentgenol</p>
+        <p class="mb-1">Aim: To identify the CT characteristics of this life-threatening and rapidly spreading viral pneumonia, summarize key imaging findings in different stages of the disease, and define the evolution of CT findings associated with disease progression or clinical improvement. We also aim to investigate how CT findings correlate with patients’ age, severity of clinical symptoms, laboratory testing, and disease prognosis.</p>
       </a>
 
       <a href="https://pubmed.ncbi.nlm.nih.gov/32180292/?from_single_result=32180292" class="list-group-item list-group-item-action" style="border: none">
@@ -191,6 +232,39 @@
         <p class="mb-1">03/18/2020 | Mullins E, Evans D, Viner RM, et al. | Ultrasound Obstet Gynecol</p>
         <p class="mb-1">Aim: To guide treatment and prevention in women affected by COVID-19 during pregnancy in the current outbreak.</p>
       </a>
+
+      <a href="https://pubmed.ncbi.nlm.nih.gov/32206052/?from_single_result=32206052" class="list-group-item list-group-item-action" style="border: none">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">COVID-19 and Smoking: A Systematic Review of the Evidence</h5>
+        </div>
+        <p class="mb-1">03/20/2020 | Vardavas CI, Nikitara K | Tob Induc Dis</p>
+        <p class="mb-1">What is the assocation between smoking and COVID-19 outcomes including the severity of the disease, the need for mechanical ventilation, the need for intensive care unite (ICU) hosptialization, and death?</p>
+      </a>
+
+      <a href="https://pubmed.ncbi.nlm.nih.gov/32202343/?from_single_result=32202343" class="list-group-item list-group-item-action" style="border: none">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Systematic Review of COVID-19 in Children Show Milder Cases and a Better Prognosis than Adults</h5>
+        </div>
+        <p class="mb-1">03/23/2020 | Ludvigsson JF | Acta Paediatr</p>
+        <p class="mb-1">What is the evidence on COVID-19 incidence and disease course in children?</p>
+      </a>
+
+      <a href="https://www.sciencedirect.com/science/article/pii/S1546144020302623" class="list-group-item list-group-item-action" style="border: none">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">COVID-19 Computed Tomography Findings: A Systematic Review and Meta-Analysis</h5>
+        </div>
+        <p class="mb-1">3/25/2020 | Bao C, Liu X, Zhang H, et al. | J Am Coll Radiol</p>
+        <p class="mb-1">Aim: To provide a more precise estimate of detection of COVID-19 by chest CT and report on the most common imaging findings on chest CT imaging.</p>
+      </a>
+
+      <!--Incomplete - can't find link
+      <a href="#" class="list-group-item list-group-item-action" style="border: none">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Outcome of Coronavirus spectrum infections (SARS, MERS, COVID 1 -19) during pregnancy: a systematic review and meta-analysis</h5>
+        </div>
+        <p class="mb-1">3/25/2020 | Mascio DD, Khalil A, Saccone G, et al. | Am J Obs Gynecol</p>
+        <p class="mb-1">Question/Aim</p>
+      </a> -->
     </div>
 </section>
 
@@ -232,28 +306,12 @@
     <p class="mb-1">Aim: To describe protein structures that are potential targets for the development of CoV therapies</p>
   </a>
 
-  <a href="#" class="list-group-item list-group-item-action" style="border: none">
+  <a href="https://pubmed.ncbi.nlm.nih.gov/32173110/?from_single_result=32173110" class="list-group-item list-group-item-action" style="border: none">
     <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">Title</h5>
+      <h5 class="mb-1">A systematic review on the efficacy and safety of chloroquine for the treatment of COVID-19.</h5>
     </div>
-    <p class="mb-1">Date | Author | Journal</p>
-    <p class="mb-1">Question/Aim</p>
-  </a>
-
-  <a href="#" class="list-group-item list-group-item-action" style="border: none">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">Title</h5>
-    </div>
-    <p class="mb-1">Date | Author | Journal</p>
-    <p class="mb-1">Question/Aim</p>
-  </a>
-
-  <a href="#" class="list-group-item list-group-item-action" style="border: none">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">Title</h5>
-    </div>
-    <p class="mb-1">Date | Author | Journal</p>
-    <p class="mb-1">Question/Aim</p>
+    <p class="mb-1">3/10/2020 | Cortegiani A, Ingoglia G, Ippolito M, et al. | J Crit Care</p>
+    <p class="mb-1">Aim: To evaluate the efficacy and safety of chloroquine and chloroquine-related formulations in patients with SARS-CoV-2 pneumonia and articles describing related in-vitro studies. </p>
   </a>
 </div>
 </section>
@@ -262,6 +320,8 @@
 
 <section class="main-section" id="vaccine">
 <header class="main-doc-header"><i class="fas fa-syringe"></i>Candidate Vaccines R&D</header>
+
+<!--No articles yet
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action" style="border: none">
     <div class="d-flex w-100 justify-content-between">
@@ -286,13 +346,15 @@
     <p class="mb-1">Date | Author | Journal</p>
     <p class="mb-1">Question/Aim</p>
   </a>
-</div>
+</div> -->
 </section>
 
 <!--Ethics Articles-->
 
 <section class="main-section" id="ethics">
 <header class="main-doc-header"><i class="fas fa-thumbs-up"></i>Ethics Considerations for Research</header>
+
+<!--No articles yet
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action" style="border: none">
     <div class="d-flex w-100 justify-content-between">
@@ -317,13 +379,15 @@
     <p class="mb-1">Date | Author | Journal</p>
     <p class="mb-1">Question/Aim</p>
   </a>
-</div>
+</div> -->
 </section>
 
 <!--Social Science Articles-->
 
 <section class="main-section" id="social-sciences">
 <header class="main-doc-header"><i class="fas fa-brain"></i>Social Sciences in the Outbreak Response</header>
+
+<!--No articles yet
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action" style="border: none">
     <div class="d-flex w-100 justify-content-between">
@@ -348,7 +412,7 @@
     <p class="mb-1">Date | Author | Journal</p>
     <p class="mb-1">Question/Aim</p>
   </a>
-</div>
+</div>-->
 </section>
 
 <!--Animal Articles-->
@@ -356,29 +420,25 @@
 <section class="main-section" id="animal">
 <header class="main-doc-header"><i class="fas fa-paw"></i>Animal and Environmental Research on the Virus Origin, and Management Measures at the Human-Animal Interface</header>
 <div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action" style="border: none">
+
+  <a href="https://www.researchgate.net/publication/339071734_Emerging_and_re-emerging_human_infectious_diseases_A_systematic_review_of_the_role_of_wild_animals_with_a_focus_on_public_health_impact" class="list-group-item list-group-item-action" style="border: none">
     <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">Title</h5>
+      <h5 class="mb-1">Emerging and re-emerging human infectious diseases: A systematic review of the role of wild animals with a focus on public health impact</h5>
     </div>
-    <p class="mb-1">Date | Author | Journal</p>
-    <p class="mb-1">Question/Aim</p>
+    <p class="mb-1">2/6/2020 | Cupertino M, Rsende MB, Mayer NAJ, et al. | Asian Pacific Journal of Tropical Medicine</p>
+    <p class="mb-1">Aim: To review studies on the role of wild animals as reservoirs and/or dispersers of etiological agents of human infectious diseases in order to compile data on the main wild animals and etiological agents involved in zoonotic outbreaks</p>
   </a>
 
-  <a href="#" class="list-group-item list-group-item-action" style="border: none">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">Title</h5>
-    </div>
-    <p class="mb-1">Date | Author | Journal</p>
-    <p class="mb-1">Question/Aim</p>
-  </a>
 
+
+  <!--Template
   <a href="#" class="list-group-item list-group-item-action" style="border: none">
     <div class="d-flex w-100 justify-content-between">
       <h5 class="mb-1">Title</h5>
     </div>
     <p class="mb-1">Date | Author | Journal</p>
     <p class="mb-1">Question/Aim</p>
-  </a>
+  </a>-->
 </div>
 </section>
 </main>
@@ -386,6 +446,7 @@
 <!--Footer Section-->
 
 <footer>
+  <p class="copyright">&copy;Evidence Synthesis Program<br />Department of Veterans Affairs</p>
 </footer>
 
 <script src="index.js"></script>
