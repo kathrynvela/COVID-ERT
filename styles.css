@@ -11,7 +11,18 @@ html {
 
 .navbar {
   font-size: 1.75rem;
+  background-color: #1F4B7A;
+  color: white;
 }
+
+.navbar-nav {
+  color: white;
+}
+
+.navbar-toggler:hover {
+  background-color: #ADE2F4;
+}
+
 
 /*Heading Section*/
 .heading-block {
@@ -90,6 +101,15 @@ footer {
   color: white;
   text-align: center;
   padding-top: 40px;
+}
+
+.email {
+  color: white;
+}
+
+.email:hover {
+  text-decoration: none;
+  color: #ADE2F4;
 }
 
 
