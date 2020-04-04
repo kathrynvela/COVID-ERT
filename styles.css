@@ -24,6 +24,10 @@ html {
   margin-bottom: 1.5rem;
 }
 
+.logo {
+  margin-bottom: 3rem;
+}
+
 .about {
   margin-top: 5%;
 }
@@ -35,13 +39,13 @@ html {
 /* Main Content */
 
 .main-section {
-  padding: 10px 10px;
+  padding: 0 15%;
 }
 
 .main-doc-header {
   background-color: #1F4B7A;
   color: #F3FCF7;
-  font-size: 24px;
+  font-size: 32px;
   margin: 0 -9999rem;
  /* add back negative margin value */
  padding: 0.75rem 9999rem;
@@ -110,10 +114,9 @@ footer {
   .nav-link {
     font-size: 18px;
   }
-  /*.main-section {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }*/
+  .main-section {
+    padding: 10px;
+  }
   .logo {
     padding-bottom: 30px;
     padding-top: 15px;
@@ -121,5 +124,8 @@ footer {
   .title {
     font-size: 4.5rem;
     padding-top: 50px;
+  }
+  .main-doc-header {
+    font-size: 24px;
   }
 }
