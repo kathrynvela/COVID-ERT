@@ -28,6 +28,10 @@ html {
   margin-top: 5%;
 }
 
+.quality-check {
+  margin-top: 40px;
+}
+
 /* Main Content */
 
 .main-doc {
@@ -69,6 +73,12 @@ html {
 
 .list-group {
   margin-top: 16px;
+}
+
+.logo-small {
+  width:30px;
+  height: 20px;
+  margin-left: 10px;
 }
 
 /*Footer Section*/
