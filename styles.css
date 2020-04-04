@@ -34,13 +34,7 @@ html {
 
 /* Main Content */
 
-.main-doc {
-  margin-right: 400px;
-}
-
 .main-section {
-  margin-left: 15.625rem;
-  margin-right: 15.625rem;
   padding: 10px 10px;
 }
 
@@ -89,13 +83,11 @@ footer {
  /* add back negative margin value */
   padding: 0.75rem 9999rem;
   height: 150px;
-}
-
-.copyright {
   color: white;
   text-align: center;
   padding-top: 40px;
 }
+
 
 /* Media Queries */
 
