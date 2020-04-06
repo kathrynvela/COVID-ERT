@@ -40,7 +40,16 @@ html {
 }
 
 .about {
-  margin-top: 5%;
+  margin-top: 3%;
+}
+
+.icon-key {
+  margin-top: 3%
+}
+
+.logo-small-key {
+  width:30px;
+  height: 20px;
 }
 
 .quality-check {
@@ -72,12 +81,12 @@ html {
   padding-top: 1.2rem;
 }
 
-.fas {
-  padding-right: 0.75rem;
-}
-
 .fa-check-square {
   color: green;
+}
+
+.check-icon {
+  padding-left: 0.75rem;
 }
 
 .list-group {
